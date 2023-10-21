@@ -1,0 +1,95 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding-top: 150px;
+    padding-left: 150px;
+    align-items: center;
+}
+
+.profile-picture-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.profile-picture-box {
+    height: 250px;
+    width: 250px;
+    border: 1px solid rgb(225, 225, 225);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.profile-picture {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    border: none;
+    border-radius: 20px;
+}
+
+.profile-picture-wrapper .name {
+    font-weight: bold;
+    font-size: 30px;
+    position: absolute;
+    bottom: -40px;
+}
+
+.personal-information-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.degree, .major, .school {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.school {
+    color: rgb(32, 105, 65);
+}
+
+.email {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.postbox-thumbnail {
+    width: 20px;
+    height: 20px;
+    border: none;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.email-link {
+    color: rgb(182, 182, 182);
+    text-decoration: underline;
+}
+
+
+.logo-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.logo-picture {
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+}
+

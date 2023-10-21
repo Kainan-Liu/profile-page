@@ -1,0 +1,33 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    background-color: rgb(243, 243, 243);
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(228, 228, 228);
+    border-bottom-style: solid;
+}
+
+.left-section {
+    flex: 1;
+}
+
+.middle-section {
+    flex: 1;
+}
+
+.right-section {
+    flex: 1;
+}
+
+.mode {
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 30px;
+}

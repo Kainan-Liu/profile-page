@@ -1,0 +1,99 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 550px;
+    top: 100px;
+    bottom: 0px;
+}
+
+.Introduction, .research-interest {
+    width: 800px;
+    margin-bottom: 5px;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Introduction-content {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.emphasis-font {
+    color: rgb(3, 134, 14);
+}
+
+.research-content .topic-list {
+    list-style-type: square;
+    padding-left: 20px;
+    line-height: 30px;
+
+}
+
+.list {
+    font-size: 18px;
+}
+
+.projects-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 3px 6px 5px rgba(0, 0, 0, 0.15);
+}
+
+.ODBC-GAN {
+    display: flex;
+    flex-direction: row;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 3px 6px 5px rgba(0, 0, 0, 0.15);
+    padding: 8px;
+}
+
+.ODBC-GAN-figure {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 3px 6px 5px rgba(0, 0, 0, 0.15);
+    margin-right: 30px;
+}
+
+.Author {
+    font-weight: bold;
+}
+
+.conference .cite {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.button-wrapper {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+}
+
+.button-wrapper .paper-button {
+    background-color: rgb(255, 220, 220);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(199, 199, 199);
+    border-radius: 5px;
+    padding: 8px;
+    box-shadow: 3px 6px 5px rgba(0, 0, 0, 0.15);
+}
+
+.button-wrapper .paper-button:hover {
+    cursor: pointer;
+}
