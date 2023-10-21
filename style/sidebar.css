@@ -10,6 +10,7 @@
     padding-top: 150px;
     padding-left: 150px;
     align-items: center;
+    z-index: 1000;
 }
 
 .profile-picture-wrapper {
